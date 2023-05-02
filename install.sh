@@ -9,6 +9,7 @@ if [ $? -gt 0 ]; then
   exit 1
 fi
 
+brew install --cask font-awesome-terminal-fonts
 brew install tmux neovim ripgrep stow asdf gpg gawk
 
 stow . -d ${SCRIPT_DIR} -t ${HOME} -v
