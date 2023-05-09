@@ -16,6 +16,7 @@ stow . -d ${SCRIPT_DIR} -t ${HOME} -v
 
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf plugin add python
+asdf plugin-add direnv
 asdf install
 
 # Install TPM (Tmux plugin manager) if it doesn't exist and all configured plugins

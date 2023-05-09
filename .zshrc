@@ -10,8 +10,9 @@ then
   compinit
 fi
 
-. $(brew --prefix asdf)/libexec/asdf.sh
+. $(brew --prefix asdf)/bin
 
 if [ -f ${HOME}/.localrc ]; then
   source ${HOME}/.localrc
 fi
+source "${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/zshrc"
