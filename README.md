@@ -9,4 +9,3 @@ Collection of configurations that I like for my machines
 ## Install
 
 1. Run `install.sh`
-2. Change preferences on your terminal emulator to use one of the font-awesome fonts

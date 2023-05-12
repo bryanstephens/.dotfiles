@@ -10,7 +10,7 @@ if [ $? -gt 0 ]; then
 fi
 
 brew tap homebrew/cask-fonts
-brew install neovim ripgrep stow asdf gpg gawk font-hack-nerd-font
+brew install alacritty neovim ripgrep stow asdf gpg gawk font-hack-nerd-font
 
 stow . -d ${SCRIPT_DIR} -t ${HOME} -v
 
