@@ -1,4 +1,5 @@
 direnv 2.32.2
+java temurin-20.0.1+9
 nodejs 20.0.0
 python system
 zellij latest
