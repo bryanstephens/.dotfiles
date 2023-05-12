@@ -1,3 +1,4 @@
 direnv 2.32.2
 nodejs 20.0.0
 python system
+zellij latest
