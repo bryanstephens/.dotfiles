@@ -34,5 +34,6 @@ return require('packer').startup(function(use)
   }
   use "rafamadriz/friendly-snippets"
   use "tpope/vim-commentary"
+  use "folke/neodev.nvim"
 end)
 

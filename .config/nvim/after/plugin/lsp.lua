@@ -42,14 +42,13 @@ lsp.ensure_installed({
   "yamlls",
 })
 
+require("neodev").setup({})
 -- (Optional) Configure lua language server for neovim
 lspconfig.lua_ls.setup(lsp.nvim_lua_ls())
 
 lspconfig.rust_analyzer.setup({
   root_dir = lspconfig.util.root_pattern('Cargo.toml'),
 })
-
-lsp.setup()
 
 local ok, cmp = pcall(require,"cmp")
 if not ok then
@@ -80,3 +79,4 @@ cmp.setup({
   }
 })
 
+lsp.setup()
