@@ -15,6 +15,7 @@ brew install alacritty neovim ripgrep stow asdf gpg gawk font-hack-nerd-font
 stow . -d ${SCRIPT_DIR} -t ${HOME} -v
 
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf plugin add gcloud
 asdf plugin add java
 asdf plugin add maven
 asdf plugin add python

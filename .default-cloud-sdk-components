@@ -1,0 +1,15 @@
+cloud-datastore-emulator
+cloud-firestore-emulator
+pubsub-emulator
+docker-credential-gcr
+kustomize
+minikube
+terraform-tools
+config-connector
+alpha
+beta
+kubectl
+kubectl-oidc
+bq
+gsutil
+core
