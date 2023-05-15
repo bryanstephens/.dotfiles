@@ -27,5 +27,6 @@ asdf direnv setup --shell zsh --version 2.32.2
 
 if [ ! -d $HOME/.local/share/nvim/site/pack/packer/start/packer.nvim ]; then
   git clone --depth 1 https://github.com/wbthomason/packer.nvim ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-  nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 fi
+
+nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
