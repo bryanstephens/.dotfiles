@@ -42,7 +42,12 @@ lsp.ensure_installed({
   "yamlls",
 })
 
-require("neodev").setup({})
+local ok, neodev = pcall(require, "neodev")
+if not ok then
+  return
+end
+neodev.setup({})
+
 -- (Optional) Configure lua language server for neovim
 lspconfig.lua_ls.setup(lsp.nvim_lua_ls())
 
