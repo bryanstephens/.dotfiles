@@ -24,8 +24,8 @@ export EDITOR="nvim"
 export VISUAL="nvim"
 alias vim="/usr/bin/env nvim"
 
-# Use emacs style zsh bindings
-bindkey -e
+# Use vim style zsh bindings
+bindkey -v
 
 if type brew &>/dev/null
 then
