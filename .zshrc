@@ -26,6 +26,9 @@ alias vim="/usr/bin/env nvim"
 
 # Use vim style zsh bindings
 bindkey -v
+# Restore ^r command history search
+bindkey -M viins '^R' history-incremental-search-backward
+bindkey -M vicmd '^R' history-incremental-search-backward
 
 if type brew &>/dev/null
 then
