@@ -1,1 +1,2 @@
-require("bryanstephens")
+require("bryanstephens.core")
+require("bryanstephens.lazy")
