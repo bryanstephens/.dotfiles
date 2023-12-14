@@ -6,3 +6,4 @@ nodejs 20.0.0
 zellij latest
 direnv 2.32.2
 rust 1.69.0
+golang 1.21.4

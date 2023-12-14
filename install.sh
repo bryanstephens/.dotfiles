@@ -22,6 +22,7 @@ asdf plugin add python
 asdf plugin-add direnv
 asdf plugin-add zellij
 asdf plugin-add rust
+asdf plugin-add golang
 asdf install
 
 asdf direnv setup --shell zsh --version 2.32.2
