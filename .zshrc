@@ -38,7 +38,7 @@ then
   compinit
 fi
 
-. $(brew --prefix asdf)/bin
+. $(brew --prefix asdf)/libexec/asdf.sh
 
 if [ -f ${HOME}/.localrc ]; then
   source ${HOME}/.localrc
