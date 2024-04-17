@@ -39,6 +39,7 @@ return {
 				"eslint",
 				"gopls",
 				"gradle_ls",
+        "jdtls",
 				"jsonls",
 				"lemminx",
 				"marksman",
