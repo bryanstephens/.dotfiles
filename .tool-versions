@@ -7,3 +7,4 @@ zellij latest
 direnv 2.32.2
 rust 1.69.0
 golang 1.21.4
+jq 1.7.1
