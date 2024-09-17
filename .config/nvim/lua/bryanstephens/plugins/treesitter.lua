@@ -34,6 +34,7 @@ return {
           "yaml",
           "html",
           "css",
+          "scss",
           "markdown",
           "markdown_inline",
           "graphql",
@@ -47,6 +48,7 @@ return {
           "c",
           "vimdoc",
           "query",
+          "vue",
         },
         -- Install parsers synchronously (only applied to `ensure_installed`)
         sync_install = false,

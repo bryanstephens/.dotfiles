@@ -5,6 +5,7 @@ return {
     'folke/neodev.nvim',
     "williamboman/mason-lspconfig.nvim",
     "WhoIsSethDaniel/mason-tool-installer.nvim",
+		"nvim-java/nvim-java",
   },
   config = function()
     -- import mason
@@ -24,6 +25,10 @@ return {
           package_uninstalled = "✗",
         },
       },
+			registries = {
+				'github:nvim-java/mason-registry',
+				"github:mason-org/mason-registry",
+			}
     })
 
     mason_lspconfig.setup({
@@ -40,7 +45,6 @@ return {
         "eslint",
         "gopls",
         "gradle_ls",
-        "jdtls",
         "jsonls",
         "lemminx",
         "marksman",
